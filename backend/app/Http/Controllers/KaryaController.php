@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\KaryaLaut;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log; 
+use Illuminate\Support\Facades\Storage;
 
 class KaryaController extends Controller
 {
@@ -108,4 +111,5 @@ class KaryaController extends Controller
 
     return response(["error" => 0, "message" => "Data Berhasil Diubah"]);
     }
+
 }
