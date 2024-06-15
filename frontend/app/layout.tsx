@@ -43,7 +43,7 @@ export default function MainLayout({
           {children}
         </section>
 
-        <footer className={style.footer}>&copy; 2024 | TIM PBS </footer>
+        <footer className={style.footer}>&copy; 2024 | SIRSAK TEAM </footer>
       </body>
     </html>
   );
