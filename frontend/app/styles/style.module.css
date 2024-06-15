@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Playpen+Sans&display=swap');
+
+.layout
+{
+    margin: 0;
+}
+
+.header
+{
+    display: flex;    
+    background-color: #016de1;
+    /* perataan horizontal */
+    justify-content: start;
+    /* perataan vertical */
+    align-items: center;        
+    padding: 2px;
+
+    top: 0;
+    position: sticky;
+}
+
+.content
+{
+    text-align: justify;
+    min-height: 750px;
+    padding: 20px;    
+
+    /* font-family: 'Ephesis', cursive;
+    font-size: 16px;     */
+}
+
+.content_bg
+{
+    background-color: #e3e3e3;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #016de1;
+    color: #FFFFFF;
+
+    font-family: 'Cambria', cursive;
+    font-size: 14px;
+
+    bottom: 0;
+    position: sticky;
+}
